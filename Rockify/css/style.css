@@ -1,0 +1,86 @@
+/*
+*
+*@autor Ely Carvalho
+*
+*/
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body{
+	background: url(../img/bands-mosaic.png),
+	            url(../img/bands-ruido.png),
+                linear-gradient(50deg,#F83026,#F8A226);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar-transparente{
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	background: linear-gradient(120deg,rgba(254,0,0, 0.6), rgba(254, 163, 0, 0.6) );
+	color: #FCFF4E;
+	border-radius: 5px 0;
+}
+
+.navbar-light .navbar-toggler{
+	color: rgba(255,255,255,.5);
+	border-color: rgba(255, 112,  28,.5);
+}
+
+.carousel img{
+	margin-bottom: 3px;
+	box-shadow: 5px 5px 7px #151617;
+}
+
+/***** tipografia ******/
+h1{
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 2px 2px #000;
+}
+
+h2, h3{
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+#bandas-classicas{
+	background-color: #fff;
+	padding: 10px;
+}
+
+#bandas-atuais{
+	color: #fff;
+	background: linear-gradient(120deg,rgba(254,0,0, 0.9), rgba(254, 163, 10, 0.6) );
+}
+
+.rotacionar{
+	margin-top: 90px;
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	padding-left: 50px;
+}
+/****** rodapé ******/
+footer{
+	background: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float: right;
+	margin: 0 5px;
+}
